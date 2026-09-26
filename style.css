@@ -6,12 +6,14 @@
 
 html{
     scroll-behavior: smooth;
+   
 }
 
 body{
     font-family: "Inter", sans-serif;
     color: #17253a;
     background:#f6f7f9;
+     
 }
 
 h1,
@@ -89,11 +91,10 @@ a{
 
 .hero-image{
 position: absolute;
-right: 0;
-top: 0;
-
+right:0;
+top:0;
 width: 50%;
-height: 100%;
+height:100%;
 overflow: hidden;
 
 }
@@ -734,3 +735,57 @@ footer{
         text-align: center;
     }
 }
+
+
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: auto;
+        padding: 40px 20px;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-image {
+        position: relative;
+        width: 100%;
+        max-width: 320px;
+        margin: 30px auto 0;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .hero-content button,
+    .hero-content a {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+        
+        
