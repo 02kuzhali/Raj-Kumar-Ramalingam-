@@ -156,7 +156,7 @@ background: rgba(255,255,255,0.08);
 }
 
 .hero h1{
-    font-size:36px;
+    font-size:46px;
     line-height: 1.5;
     margin-bottom: 25px;
     word-break:normal;
@@ -179,7 +179,7 @@ background: rgba(255,255,255,0.08);
 }
 
 .hero-description{
-    max-width: 350px;
+    max-width: 650px;
     line-height: 1.8;
     color: #dce5ef;
     font-size:16px;
